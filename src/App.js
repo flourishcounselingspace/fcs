@@ -14,7 +14,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout/>}>
          <Route index element={<OurMission />} /> {/* Default Route */}
-    <Route path="/" element={<OurMission />} />
+    <Route path="/fcs" element={<OurMission />} />
     <Route path="" element={<OurMission />} />
     <Route path="imcgoal" element={<ImcGoal />} />
     <Route path="ourmission" element={<OurMission />} />
