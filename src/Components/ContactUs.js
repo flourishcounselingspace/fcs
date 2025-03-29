@@ -13,7 +13,7 @@
 import React from "react";
 import "./ContactUs.css"; // Import the CSS file
 import { FaPhoneAlt, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa"; // Icon components
-import contact  from '../assets/contactus.jpg'
+// import contact  from '../assets/contactus.jpg'
 
 const ContactUs = () => {
   return (
@@ -54,10 +54,13 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <div className="contact-us-image">
+      {/* <div className="contact-us-image">
         <a href="https://wa.me/919937190927" target="_blank" rel="noopener noreferrer">
-          <img src={contact} height="200" width="400" alt="Contact Us" style={{ cursor: "pointer" }} />
+          <img src={contact} height="100" width="200" alt="Contact Us" style={{ cursor: "pointer" }} />
         </a>
+      </div> */}
+      <div>
+      <iframe title="Contact Flourish Counseling Space Experts" src="https://docs.google.com/forms/d/e/1FAIpQLSfzNdKtOI23ZWGKbsOoI5z7kFNIqsxO5ki1KKT_1OLEpf-Liw/viewform?embedded=true" width="640" height="821" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </div>
   );
