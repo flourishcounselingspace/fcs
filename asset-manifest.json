@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/fcs/static/css/main.61330628.css",
-    "main.js": "/fcs/static/js/main.f3c18b8f.js",
+    "main.js": "/fcs/static/js/main.639e6487.js",
     "static/js/453.052f1b5d.chunk.js": "/fcs/static/js/453.052f1b5d.chunk.js",
     "static/media/whatsapplogo.png": "/fcs/static/media/whatsapplogo.b30a630a02b2e881c186.png",
     "static/media/counseling.jpeg": "/fcs/static/media/counseling.005631e4f517950ab28d.jpeg",
     "static/media/imclogo.jpg": "/fcs/static/media/imclogo.bfe08811f1f960c388fb.jpg",
     "index.html": "/fcs/index.html",
     "main.61330628.css.map": "/fcs/static/css/main.61330628.css.map",
-    "main.f3c18b8f.js.map": "/fcs/static/js/main.f3c18b8f.js.map",
+    "main.639e6487.js.map": "/fcs/static/js/main.639e6487.js.map",
     "453.052f1b5d.chunk.js.map": "/fcs/static/js/453.052f1b5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61330628.css",
-    "static/js/main.f3c18b8f.js"
+    "static/js/main.639e6487.js"
   ]
 }
