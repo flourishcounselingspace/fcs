@@ -1,6 +1,6 @@
 {
-  "homepage": "https://flourishcounselingspace.github.io",
-  "name": "imc3",
+  "homepage": "https://flourishcounselingspace.github.io/fcs",
+  "name": "fcs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
