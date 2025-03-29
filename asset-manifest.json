@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/fcs/static/css/main.bcb57430.css",
-    "main.js": "/fcs/static/js/main.7ab826b8.js",
+    "main.js": "/fcs/static/js/main.05f4dda0.js",
     "static/js/453.57a6f7e4.chunk.js": "/fcs/static/js/453.57a6f7e4.chunk.js",
-    "static/media/contactus.jpg": "/fcs/static/media/contactus.5c7aed64db2271f202f0.jpg",
     "static/media/whatsapplogo.png": "/fcs/static/media/whatsapplogo.b30a630a02b2e881c186.png",
     "static/media/counseling.jpeg": "/fcs/static/media/counseling.005631e4f517950ab28d.jpeg",
     "static/media/imclogo.jpg": "/fcs/static/media/imclogo.bfe08811f1f960c388fb.jpg",
     "index.html": "/fcs/index.html",
     "main.bcb57430.css.map": "/fcs/static/css/main.bcb57430.css.map",
-    "main.7ab826b8.js.map": "/fcs/static/js/main.7ab826b8.js.map",
+    "main.05f4dda0.js.map": "/fcs/static/js/main.05f4dda0.js.map",
     "453.57a6f7e4.chunk.js.map": "/fcs/static/js/453.57a6f7e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcb57430.css",
-    "static/js/main.7ab826b8.js"
+    "static/js/main.05f4dda0.js"
   ]
 }
