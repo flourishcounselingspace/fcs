@@ -32,3 +32,13 @@ a.active {
   font-size: 70;
   font-weight: 500;
 } 
+.my-color-black{
+  color:black;
+}
+.my-color-blue{
+  color:blue;
+}
+.my-color-white{
+  color:white;
+}
+

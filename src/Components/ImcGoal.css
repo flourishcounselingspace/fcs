@@ -32,9 +32,9 @@
   margin-bottom: 20px;
 }
 
-p {
+section p {
   font-size: 1.5rem;
-  color: #555;
+  color: black;
   line-height: 1.6;
 }
 

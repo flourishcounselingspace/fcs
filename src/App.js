@@ -8,8 +8,9 @@ import AboutUs from './Components/AboutUs'
 import RootLayout from './Components/RootLayout'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import NotFoundPage from './Components/NotFoundPage';
-
 const App = () => {
+  const baseName = "/fcs";  // Change this to your actual base path
+
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout/>}>
@@ -27,7 +28,7 @@ const App = () => {
   );
   
   return (
-    <RouterProvider router={router} />
+    <RouterProvider router={router} baseName={baseName} />
   )};
 
 export default App;

@@ -1,6 +1,7 @@
 import React from "react";
 import './Footer.css';
 import { NavLink } from "react-router-dom";
+import SocialLinks from "./SocialLinks";
 function Footer() {
   return (
 
@@ -32,6 +33,7 @@ function Footer() {
            <h4>Contact Us</h4>
            <h5>flourishcounselingspace@gmail.com</h5>
            <h5>Phone: +91-9937190927</h5>
+           <SocialLinks/>
          </div>
          <div class="text-center mt-2">
          <strong><p>&copy; 2025 Institute of Mental Health and Counseling(IMC). All rights reserved.</p></strong>

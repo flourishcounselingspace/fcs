@@ -13,13 +13,6 @@ const Navbar = () => {
       const bsOffcanvas = Offcanvas.getInstance(offcanvasElement);
       if (bsOffcanvas) {
         bsOffcanvas.hide();
-         // Manually remove the backdrop
-        //setTimeout(() => {
-        // const backdrop = document.querySelector(".offcanvas-backdrop");
-        // if (backdrop) {
-        //   backdrop.remove();
-        // }
-      //}, 300); // Delay to match Bootstrap's closing animation
       }
     }
   };

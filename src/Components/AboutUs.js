@@ -26,7 +26,7 @@ const AboutUs = () => {
       </div>
 
       <div className="about-us-content">
-        <p>
+        <p className="my-color-black">
           Life throws curveballs: grief, job loss, relationship problems, confusion related to gender,
           and major life transitions. Anyone experiencing emotional distress, struggling with mental
           health conditions, couples and families facing relationship challenges, people seeking personal
@@ -35,7 +35,7 @@ const AboutUs = () => {
           life. Counseling helps individuals navigate these challenges with resilience. It provides support
           and guidance during difficult times.
         </p>
-        <p>
+        <p className="my-color-black">
           We will make you an instrument to help yourself with proven therapeutic techniques.
         </p>
       </div>

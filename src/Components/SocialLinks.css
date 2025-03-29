@@ -1,0 +1,18 @@
+/* src/components/SocialLinks.css */
+.social-links {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: greenyellow;
+  transition: color 0.1s ease;
+}
+
+.social-links a:hover {
+  color: red; /* Example color change on hover */
+}
