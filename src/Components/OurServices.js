@@ -1,23 +1,10 @@
-// import React from "react";
-// import './OurServices.css';
-// function OurServices() {
-//   return (
-//     <div className="service-box">
-//         OurServices component works
-//     </div>
-//   );
-// }
 
-// export default OurServices;
-
-// ServicesPage.jsx
 import React from "react";
 import "./OurServices.css"; // Import the CSS file
 
 const OurServices = () => {
   return (
     <div className="page-wrapper">
-      <h1 className="title">Our Counseling Services</h1>
 
       <div className="service-card">
         <h2 className="service-title">Stress and Anxiety Management</h2>

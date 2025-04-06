@@ -21,11 +21,11 @@ function Footer() {
          <div class="col-md-3">
            <h4>Quick Links</h4>
            <ul class="list-unstyled normal-font">
-           <li><NavLink to="/ourmission" className="text-white">Our Mission</NavLink></li>
-          <li><NavLink to="/imcgoal" className="text-white">IMC Goal</NavLink></li>
-          <li><NavLink to="/ourservices" className="text-white">Our Services</NavLink></li>
-          <li><NavLink to="/contactus" className="text-white">Contact Us</NavLink></li>
-          <li><NavLink to="/aboutus" className="text-white">About Us</NavLink></li>
+           <li><NavLink to="/fcs/ourmission" className="text-white">Our Mission</NavLink></li>
+          <li><NavLink to="/fcs/imcgoal" className="text-white">IMC Goal</NavLink></li>
+          <li><NavLink to="/fcs/ourservices" className="text-white">Our Services</NavLink></li>
+          <li><NavLink to="/fcs/contactus" className="text-white">Contact Us</NavLink></li>
+          <li><NavLink to="/fcs/aboutus" className="text-white">About Us</NavLink></li>
            </ul>
          </div>
  

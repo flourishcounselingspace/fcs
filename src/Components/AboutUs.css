@@ -1,62 +1,256 @@
-/* .about-box{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 60vh;
-  background-color: yellow;
-} */
 
-/* AboutUsPage.css */
 
-/* Page Wrapper */
+
+/* Main Wrapper for About Us */
 .about-us-wrapper {
-  font-family: Overpass,sans-serif;
-  padding: 40px;
-  background-color: #f4f9fc;
-  max-width: 1200px;
-  margin: 0 auto;
   text-align: center;
+  padding: 30px;
+  background-color: #f9f9f9;
 }
-
-/* Header */
-.about-us-header {
-  margin-bottom: 40px;
+.about-us-header{
+  margin-top:100px;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .description {
-  font-size: 1.2rem;
-  color: #555;
-  margin-top: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
 }
 
-/* Content Section */
+/* About Us Content Section */
 .about-us-content {
-  font-size: 1.1rem;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-color-black {
+  font-size: 16px;
   color: #333;
   line-height: 1.6;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
-/* Image */
-.about-us-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
+/* Image Section (Counselor Images) */
+.about-us-images {
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* Space between the images */
+  flex-wrap: wrap; /* Allow wrapping in smaller screen sizes */
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .title {
-    font-size: 2rem;
+.image-wrapper {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Make the image wrapper round */
+  overflow: hidden; /* Ensure the image stays within the rounded boundary */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.image-wrapper:hover {
+  transform: scale(1.1); /* Slightly enlarge the image on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increased shadow effect on hover */
+}
+
+.round-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
+}
+/* Counselor Details Styling */
+.counselor-details {
+  max-width: 300px;
+  background-color: floralwhite;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Name and Experience Styling */
+.counselor-name {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.experience {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* Expertise Section Styling */
+.expertise h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.expertise ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.expertise li {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Languages Section Styling */
+.languages h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.languages p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Responsive Styling */
+/* @media (max-width: 768px) {
+  .about-us-images {
+    flex-direction: column;
+    gap: 20px;
   }
 
-  .about-us-content {
+  .image-wrapper {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .my-color-black {
+    font-size: 14px;
+  }
+} */
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .about-us-wrapper {
+    padding: 15px;
+    margin-top: 60px; /* Adjust margin to prevent overlap */
+  }
+  .about-us-header{
+    margin-top:80px;
+  }
+  
+
+  .about-us-images {
+    flex-direction: column; /* Stack images vertically */
+    gap: 20px;
+  }
+
+  .image-wrapper {
+    width: 150px; /* Smaller image size on mobile */
+    height: 150px;
+    margin-left: 100px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .my-color-black {
+    font-size: 14px;
+  }
+
+  /* Make counselor details more mobile-friendly */
+  .counselor-details {
+    max-width: 90%; /* Allow it to fit on smaller screens */
+    margin: 0 auto; /* Center the details */
+  }
+
+  .counselor-name {
+    font-size: 1.3rem;
+  }
+
+  .experience {
+    font-size: 0.9rem;
+  }
+
+  .expertise h4,
+  .languages h4 {
     font-size: 1rem;
+  }
+
+  .expertise li,
+  .languages p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Additional Mobile Adjustments for very small screens (like phones below 480px) */
+@media (max-width: 480px) {
+  .about-us-wrapper {
+    padding: 10px;
+    margin-top: 50px; /* Prevent overlap */
+  }
+  .about-us-header{
+    margin-top:70px;
+  }
+  
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .image-wrapper {
+    width: 120px; /* Smaller image size */
+    height: 120px;
+  }
+
+  .round-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .counselor-details {
+    padding: 15px;
+  }
+
+  .counselor-name {
+    font-size: 1.2rem;
+  }
+
+  .experience {
+    font-size: 0.8rem;
+  }
+
+  .expertise h4,
+  .languages h4 {
+    font-size: 0.9rem;
+  }
+
+  .expertise li,
+  .languages p {
+    font-size: 0.8rem;
   }
 }

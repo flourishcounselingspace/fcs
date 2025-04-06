@@ -13,10 +13,11 @@
 .contact-us-wrapper {
   font-family: Overpass,sans-serif;
   padding: 40px;
-  background-color: #f4f9fc;
+  background-color: whitesmoke;
   max-width: 1200px;
-  margin: 0 auto;
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
 /* Title */
@@ -96,6 +97,7 @@ iframe {
 @media (max-width: 768px) {
   .contact-us-title {
     font-size: 2rem;
+    margin-top: 100px;
   }
 
   .contact-items {

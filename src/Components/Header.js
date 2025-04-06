@@ -10,13 +10,19 @@ function Header({brandName}) {
         </h1>
     <Link class="navbar-brand" to="/"><h3>{brandName}</h3></Link>
     <div class="nav-item">
-           <Link class="nav-link active font-" aria-current="page" to="/imcgoal"><h2>Our Mission</h2></Link>
+           <Link class="nav-link active font-" aria-current="page" to="/fcs/ourmission"><h2>Our Mission</h2></Link>
          </div>
          <div class="nav-item">
-           <Link class="nav-link" to="/ourservices"><h2>Our Services</h2></Link>
+           <Link class="nav-link active font-" aria-current="page" to="/fcs/imcgoal"><h2>IMC Goal</h2></Link>
          </div>
          <div class="nav-item">
-           <Link class="nav-link" to="/contactus"><h2>Contact Us</h2></Link>
+           <Link class="nav-link" to="/fcs/ourservices"><h2>Our Services</h2></Link>
+         </div>
+         <div class="nav-item">
+           <Link class="nav-link" to="/fcs/aboutus"><h2>About Us</h2></Link>
+         </div>
+         <div class="nav-item">
+           <Link class="nav-link" to="/fcs/contactus"><h2>Contact Us</h2></Link>
          </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,16 +35,19 @@ function Header({brandName}) {
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
         <li class="nav-item">
-           <Link class="nav-link active font-" aria-current="page" to="/ourmission"><h2>Our Mission</h2></Link>
+           <Link class="nav-link active font-" aria-current="page" to="/fcs/ourmission"><h2>Our Mission</h2></Link>
          </li>
         <li class="nav-item">
-           <Link class="nav-link active font-" aria-current="page" to="/home"><h2>Imc Goal</h2></Link>
+           <Link class="nav-link active font-" aria-current="page" to="/fcs/imcgoal"><h2>Imc Goal</h2></Link>
          </li>
          <li class="nav-item">
-           <Link class="nav-link" to="/ourservices"><h2>Our Services</h2></Link>
+           <Link class="nav-link" to="/fcs/ourservices"><h2>Our Services</h2></Link>
          </li>
          <li class="nav-item">
-           <Link class="nav-link" to="/contacus"><h2>Contact Us</h2></Link>
+           <Link class="nav-link" to="/fcs/contactus"><h2>Contact Us</h2></Link>
+         </li>
+         <li class="nav-item">
+           <Link class="nav-link" to="/fcs/about"><h2>About Us</h2></Link>
          </li>
         </ul>
       </div>

@@ -23,19 +23,19 @@ const Navbar = () => {
         <img src={imclogo} alt="Logo" width="70" height="70" />
       </div>
       <ul>
-      <NavLink to="/ourmission">
+      <NavLink to="/fcs/ourmission">
           <li>Our Mission</li>
         </NavLink>
-        <NavLink to="/imcgoal">
+        <NavLink to="/fcs/imcgoal">
           <li>IMC Goal</li>
         </NavLink>
-        <NavLink to="/ourservices">
+        <NavLink to="/fcs/ourservices">
           <li>Our Services</li>
         </NavLink>
-        <NavLink to="/aboutus">
+        <NavLink to="/fcs/aboutus">
           <li>About Us</li>
         </NavLink>
-        <NavLink to="/contactus">
+        <NavLink to="/fcs/contactus">
           <li>Contact Us</li>
         </NavLink>
       </ul>
@@ -82,19 +82,19 @@ const Navbar = () => {
         <div className="offcanvas-body">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li>
-              <NavLink className="nav-link" to="/ourmission" onClick={closeOffcanvas}>
+              <NavLink className="nav-link" to="/fcs/ourmission" onClick={closeOffcanvas}>
               Our Mission
               </NavLink>
             </li>
             <li>
-              <NavLink className="nav-link" to="/imcgoal" onClick={closeOffcanvas}>
+              <NavLink className="nav-link" to="/fcs/imcgoal" onClick={closeOffcanvas}>
               IMC Goal
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="nav-link"
-                to="/ourservices"
+                to="/fcs/ourservices"
                 onClick={closeOffcanvas}
               >
                 Our Services
@@ -103,7 +103,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 className="nav-link"
-                to="/aboutus"
+                to="/fcs/aboutus"
                 onClick={closeOffcanvas}
               >
                 About Us
@@ -112,7 +112,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 className="nav-link"
-                to="/contactus"
+                to="/fcs/contactus"
                 onClick={closeOffcanvas}
               >
                 Contact Us

@@ -15,7 +15,7 @@
 .section {
   padding: 40px;
   margin: 20px 20px 0 20px;
-  background-color: #89a6b6;
+  background-color: whitesmoke;
   border-radius: 18px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -33,9 +33,9 @@
 }
 
 section p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: black;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 .home-box{
@@ -62,14 +62,15 @@ ul li {
 
 @media (max-width: 768px) {
   .section {
-    padding: 20px;
+    padding: 15px;
+    margin-top: 100px;
   }
 
   .title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   p, ul li {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }

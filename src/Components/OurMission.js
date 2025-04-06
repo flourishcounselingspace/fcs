@@ -2,16 +2,18 @@
 import React from "react";
 import "./OurMission.css"; // Import the CSS file
 import { useNavigate } from 'react-router-dom'; 
+import FaqComponent from "./FaqComponent";
 
 const OurMission = () => {
   const navigate = useNavigate(); // Initialize the navigate function
 
   const handleGetStarted = () => {
-    navigate("/contactus"); // Change "/newpage" to your desired route
+    navigate("/fcs/contactus"); // Change "/newpage" to your desired route
   };
 
   return (
-    <section className="counseling-container">
+    <>
+        <section className="counseling-container">
       <div className="counseling-content">
         <h2 className="counseling-title">
           🌿 Flourish Counseling Space – Your Path to Healing & Growth
@@ -42,6 +44,11 @@ const OurMission = () => {
         <button className="counseling-button" onClick={handleGetStarted}>Get Started</button>
       </div>
     </section>
+    <div>
+      <FaqComponent />
+    </div>
+    </>
+
   );
 };
 

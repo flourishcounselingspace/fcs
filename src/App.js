@@ -14,14 +14,14 @@ const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout/>}>
-         <Route index element={<OurMission />} /> {/* Default Route */}
+    <Route index element={<OurMission />} /> {/* Default Route */}
     <Route path="/fcs" element={<OurMission />} />
     <Route path="" element={<OurMission />} />
-    <Route path="imcgoal" element={<ImcGoal />} />
-    <Route path="ourmission" element={<OurMission />} />
-    <Route path="aboutus" element={<AboutUs />} />
-    <Route path="ourservices" element={<OurServices />} />
-    <Route path="contactus" element={<ContactUs />} />
+    <Route path="/fcs/ourmission" element={<OurMission />} />
+    <Route path="/fcs/imcgoal" element={<ImcGoal />} />
+    <Route path="/fcs/aboutus" element={<AboutUs />} />
+    <Route path="/fcs/ourservices" element={<OurServices />} />
+    <Route path="/fcs/contactus" element={<ContactUs />} />
     <Route path="*" element={<NotFoundPage />} /> {/* Catch-all for 404 */}
       </Route>
     )

@@ -19,7 +19,7 @@ const SocialLinks = () => {
       <a href="https://www.instagram.com/flourishcounseling123/" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
-      <a href="https://www.linkedin.com/in/flourishcounselingspace/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/showcase/flourish-counseling-space/" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a href="https://www.youtube.com/@flourishcounselingspace" target="_blank" rel="noopener noreferrer">
