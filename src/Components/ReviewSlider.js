@@ -12,16 +12,16 @@ SwiperCore.use([Navigation, Autoplay]);
 const reviews = [
   '/fcs/reviews/1.PNG',
   '/fcs/reviews/2.PNG',
-  '/fcs/reviews/3.png',
-  '/fcs/reviews/4.png',
-  '/fcs/reviews/5.png',
-  '/fcs/reviews/6.png',
-  '/fcs/reviews/7.png',
-  '/fcs/reviews/8.png',
-  '/fcs/reviews/9.png',
-  '/fcs/reviews/10.png',
-  '/fcs/reviews/11.png',
-  '/fcs/reviews/12.png'
+  '/fcs/reviews/3.PNG',
+  '/fcs/reviews/4.PNG',
+  '/fcs/reviews/5.PNG',
+  '/fcs/reviews/6.PNG',
+  '/fcs/reviews/7.PNG',
+  '/fcs/reviews/8.PNG',
+  '/fcs/reviews/9.PNG',
+  '/fcs/reviews/10.PNG',
+  '/fcs/reviews/11.PNG',
+  '/fcs/reviews/12.PNG'
 ];
 
 const ReviewSlider = () => {

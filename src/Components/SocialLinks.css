@@ -16,3 +16,26 @@
 .social-links a:hover {
   color: red; /* Example color change on hover */
 }
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .social-links {
+    flex-direction: column; /* Stack the links vertically */
+    gap: 20px; /* Reduce the gap between links */
+    align-items: center; /* Center the items horizontally */
+  }
+  
+  .social-links a {
+    font-size: 16px; /* Adjust font size for better readability on mobile */
+  }
+}
+
+/* Media Query for Smaller Mobile Devices (Optional) */
+@media (max-width: 480px) {
+  .social-links {
+    gap: 10px; /* Further reduce the gap on very small screens */
+  }
+
+  .social-links a {
+    font-size: 14px; /* Adjust font size further for small screens */
+  }
+}
