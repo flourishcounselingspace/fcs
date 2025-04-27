@@ -43,8 +43,8 @@
 .about-us-images {
   display: flex;
   justify-content: center;
-  gap: 100px; /* Space between the images */
-  /* flex-wrap: wrap;  */
+  gap: 50px; /* Space between the images */
+  flex-wrap: wrap; 
 }
 
 .image-wrapper {
