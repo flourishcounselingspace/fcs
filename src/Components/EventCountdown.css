@@ -1,0 +1,130 @@
+/* General Styles */
+.event-container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+    color: #333;
+  }
+  
+  .event-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .event-header h1 {
+    font-size: 32px;
+    color: #3b7b66;
+  }
+  
+  .event-header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .event-details {
+    display: grid;
+    gap: 40px;
+  }
+  
+  .event-countdown {
+    text-align: center;
+  }
+  
+  .event-countdown h2 {
+    font-size: 24px;
+    color: #3b7b66;
+    margin-bottom: 20px;
+  }
+  
+  .countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 28px;
+  }
+  
+  .time-unit {
+    text-align: center;
+  }
+  
+  .time-unit span {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    color: #3b7b66;
+  }
+  
+  .time-unit p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .event-info {
+    text-align: center;
+  }
+  
+  .event-info h2 {
+    font-size: 24px;
+    color: #3b7b66;
+    margin-bottom: 20px;
+  }
+  
+  .event-info p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .attendance-options {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .in-person-btn {
+    background-color: #3b7b66;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .in-person-btn:hover {
+    background-color: #2a5d47;
+  }
+  
+  .online-btn {
+    background-color: #ff7f50;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .online-btn:hover {
+    background-color: #e56c40;
+  }
+  
+  @media (max-width: 768px) {
+    .event-header h1 {
+      font-size: 28px;
+    }
+  
+    .event-info p {
+      font-size: 14px;
+    }
+  
+    .countdown-timer {
+      flex-direction: column;
+    }
+  }
+  
