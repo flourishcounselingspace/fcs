@@ -44,7 +44,7 @@
   display: flex;
   justify-content: center;
   gap: 100px; /* Space between the images */
-  flex-wrap: wrap; /* Allow wrapping in smaller screen sizes */
+  /* flex-wrap: wrap;  */
 }
 
 .image-wrapper {
