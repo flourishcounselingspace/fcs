@@ -13,7 +13,7 @@ import backgroundImage from '../assets/map.jpg';
 const ContactUs = () => {
   return (
     <div className="contact-us-wrapper">
-      <h1 className="contact-us-title">Contact Us</h1>
+      <h1 className="contact-us-title">Book Appointment</h1>
 
       <div className="contact-details">
         <p className="contact-info my-color-black">
@@ -23,12 +23,12 @@ const ContactUs = () => {
         <div className="contact-items">
           <div className="contact-item">
             <FaPhoneAlt className="icon" />
-            <span className="contact-text">📞 09937190927 / 07386277619</span>
+            <span className="contact-text">Book Appointment via 📞 09937190927 / 07386277619</span>
           </div>
           <div className="contact-item">
             <FaWhatsapp className="icon" />
             <a href="https://wa.me/919937190927" className="contact-text" target="_blank" rel="noopener noreferrer">
-              WhatsApp Us
+              Book Appointment via WhatsApp
             </a>
           </div>
           <div className="contact-item">
@@ -53,20 +53,15 @@ const ContactUs = () => {
           >
             <FaMapMarkerAlt className="icon" /> View on Google Maps
           </a>
-          <a href="https://maps.app.goo.gl/guLpYh7MsWzuTdSX6" target="_blank" rel="noopener noreferrer">
+          <a href="https://maps.app.goo.gl/NX9oedCEcu8ukWFv6" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={FaMapMarkerAlt} size="2x" />
           </a>
           <SocialLinks/>
         </div>
       </div>
-
-      {/* <div className="contact-us-image">
-        <a href="https://wa.me/919937190927" target="_blank" rel="noopener noreferrer">
-          <img src={contact} height="100" width="200" alt="Contact Us" style={{ cursor: "pointer" }} />
-        </a>
-      </div> */}
       <div>
-      <iframe title="Contact Flourish Counseling Space Experts"  src="https://docs.google.com/forms/d/e/1FAIpQLSfzNdKtOI23ZWGKbsOoI5z7kFNIqsxO5ki1KKT_1OLEpf-Liw/viewform?embedded=true" width="640" height="821" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      {/* <iframe title="Contact Flourish Counseling Space Experts"  src="https://docs.google.com/forms/d/e/1FAIpQLSfzNdKtOI23ZWGKbsOoI5z7kFNIqsxO5ki1KKT_1OLEpf-Liw/viewform?embedded=true" width="640" height="821" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+      <iframe title="Book an appointment today" src="https://docs.google.com/forms/d/e/1FAIpQLSfzNdKtOI23ZWGKbsOoI5z7kFNIqsxO5ki1KKT_1OLEpf-Liw/viewform?embedded=true" width="640" height="1587" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </div>
   );

@@ -3,6 +3,9 @@ import React from "react";
 import "./OurMission.css"; // Import the CSS file
 import { useNavigate } from 'react-router-dom'; 
 import FaqComponent from "./FaqComponent";
+// import GoogleReviews from "./GoogleReviews";
+import ReviewSlider from "./ReviewSlider";
+import MissionInfo from "./MissionInfo";
 
 const OurMission = () => {
   const navigate = useNavigate(); // Initialize the navigate function
@@ -37,13 +40,25 @@ const OurMission = () => {
           We don’t just help—you become an active participant in your own healing journey.
         </p>
 
+    
+        <MissionInfo/>
+      
+
         <p className="counseling-text emphasis">
           💙 Let us guide you toward a healthier, happier you. Take the first step today!
         </p>
 
-        <button className="counseling-button" onClick={handleGetStarted}>Get Started</button>
+        <button className="counseling-button" onClick={handleGetStarted}>Book Appointment</button>
+
+       
       </div>
     </section>
+    <div>
+    {/* <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-62ce46f2-7ad7-4b7a-a0fd-542f4931d035" data-elfsight-app-lazy></div> */}
+     <h2 style={{ textAlign: 'center', color:'white' }}>What Our Customers Say</h2>
+     <ReviewSlider />
+    </div>
     <div>
       <FaqComponent />
     </div>

@@ -1,0 +1,99 @@
+/* src/components/ReviewSlider/ReviewSlider.css */
+
+/* General container styles */
+.review-slider-container {
+    position: relative;
+    width: 100%;          /* Ensure the container is responsive */
+    max-width: 100%;      /* Allow it to grow based on the viewport */
+    margin: 0 auto;       /* Center the slider container */
+    overflow: hidden;     /* Prevent overflow outside of the container */
+  }
+  
+  /* Image styles */
+  .review-image {
+    width: 100%;             /* Make sure the image fills the container */
+    height: 100%;            /* Ensure the image takes the full height of the container */
+    object-fit: contain;     /* Ensures the image fits inside the container without distorting */
+    object-position: center; /* Center the image if it has extra space */
+    border-radius: 8px;      /* Optional: Adds rounded corners to the images */
+    padding: 20px;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .swiper {
+      width: 100%;       /* Ensure full width on smaller devices */
+      height: 250px;     /* Adjust height for mobile */
+    }
+  
+    /* Optional: Style for smaller buttons on mobile */
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 30px;
+      height: 30px;
+      /* background-color: rgba(0, 0, 0, 0.6);  */
+      z-index: 10; /* Ensure the buttons are always on top */
+    }
+  }
+  
+  /* Media query for tablet and small laptops */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .swiper {
+      width: 80%;       /* Adjust width for tablets */
+      height: 300px;    /* Adjust height for tablets */
+    }
+  
+    /* Optional: Adjust button size */
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  /* Media query for larger screens (laptops/desktops) */
+  @media (min-width: 1025px) {
+    .swiper {
+      width: 80%;       /* Adjust width for larger screens */
+      height: 400px;    /* Adjust height for larger screens */
+    }
+  
+    /* Optional: Adjust button size */
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  /* Custom navigation buttons styles */
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;               /* Center vertically */
+    z-index: 10;            /* Ensure the buttons are above the images */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* background-color: rgba(0, 0, 0, 0.4);   */
+    /* Background color for better visibility */
+    border-radius: 50%;     /* Round the navigation buttons */
+    padding: 10px;          /* Padding inside the buttons */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for buttons */
+  /* .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.7);  //Darken the background on hover
+  } */
+  
+  .swiper-button-next {
+    right: 10px;
+  }
+  
+  .swiper-button-prev {
+    left: 10px;
+  }
+  

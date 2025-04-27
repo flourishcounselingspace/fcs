@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutUs.css"; // Import the CSS file
 import dnPhoto from '../assets/dnPhoto2.jpeg';  // Import images from your project
-import rkPhoto from '../assets/rkPhoto.jpg';  // Import images from your project
+import rkPhoto from '../assets/rkPhoto1.png';  // Import images from your project
 
 const AboutUs = () => {
   return (
