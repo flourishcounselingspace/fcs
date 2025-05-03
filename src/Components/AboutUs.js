@@ -43,7 +43,7 @@ const AboutUs = () => {
               <h4>Expertise:</h4>
               <ul>
                 <li>Stress and anxiety management</li>
-                <li>Adjsutment issues</li>
+                <li>Adjustment issues</li>
                 <li>Cognitive Behavioral Therapy(CBT)</li>
                 <li>Depression</li>
                 <li>Addiction</li>
