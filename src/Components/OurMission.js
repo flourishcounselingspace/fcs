@@ -6,7 +6,7 @@ import FaqComponent from "./FaqComponent";
 // import GoogleReviews from "./GoogleReviews";
 import ReviewSlider from "./ReviewSlider";
 import MissionInfo from "./MissionInfo";
-import EventCountdown from "./EventCountdown"
+// import EventCountdown from "./EventCountdown"
 
 const OurMission = () => {
   const navigate = useNavigate(); // Initialize the navigate function
@@ -40,7 +40,7 @@ const OurMission = () => {
           and build resilience using <strong>proven therapeutic techniques.</strong> 
           We don’t just help—you become an active participant in your own healing journey.
         </p>
-        <EventCountdown/>
+        {/* <EventCountdown/> */}
 
     
         <MissionInfo/>
@@ -50,7 +50,7 @@ const OurMission = () => {
           💙 Let us guide you toward a healthier, happier you. Take the first step today!
         </p>
 
-        <button className="counseling-button" onClick={handleGetStarted}>Book Appointment</button>
+        <button className="counseling-button" onClick={handleGetStarted}>Schedule Appointment</button>
 
         
       </div>

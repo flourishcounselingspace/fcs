@@ -29,11 +29,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 8px;
     background-color: #f7f7f7;
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 18px;
+    font-weight: bold;
   }
   
   .faq-question:hover {
