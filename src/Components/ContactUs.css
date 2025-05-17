@@ -11,20 +11,17 @@
 
 /* Page Wrapper */
 .contact-us-wrapper {
-  font-family: Overpass,sans-serif;
-  padding: 40px;
-  background-color: whitesmoke;
-  max-width: 1200px;
-  text-align: center;
-  width: 80%;
-  margin: auto;
-}
 
-/* Title */
+    font-family: Overpass, sans-serif;
+    margin-top: 110px;
+    background-color: whitesmoke;
+    text-align: center;
+}
 .contact-us-title {
   font-size: 3rem;
   color: #0047bb;
   margin-bottom: 20px;
+  padding-top: 30px;
 }
 
 /* Contact Details */
@@ -96,6 +93,16 @@ iframe {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+  .contact-us-wrapper {
+    padding: 5px;
+    /* margin-right: 0px; */
+    background-color: whitesmoke;
+    /* margin-left: 0px; */
+    width: 100%;
+    margin-top:30px;
+}
+
   .contact-us-title {
     font-size: 2rem;
     margin-top: 100px;

@@ -3,10 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 20px;
+  padding: 40px 20px;
   text-align: center;
-  width: 80%;
-  margin: auto;
+  width: 100%;
 }
 
 .counseling-content {
@@ -16,6 +15,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-in-out;
+  margin-top: 90px;
 }
 
 .counseling-title {
@@ -23,6 +23,7 @@
   font-weight: bold;
   color: #2c3e50;
   margin-bottom: 15px;
+  /* margin-top: 40px; */
 }
 
 .counseling-text {
@@ -60,12 +61,18 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+  .counseling-container {
+    padding: 0px;
+  }
   .counseling-content {
-    padding: 30px;
-    margin-top: 50px;
+    padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 30px;
   }
   .counseling-title {
     font-size: 1.5rem;
+    margin-top: 40px;
   }
   .counseling-text {
     font-size: 0.95rem;
@@ -73,12 +80,17 @@
 }
 
 @media (max-width: 480px) {
+  .counseling-container {
+    padding: 0px;
+  }
   .counseling-content {
-    padding: 20px;
-    margin-top: 50px;
+    padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 30px;
   }
   .counseling-title {
     font-size: 1.3rem;
+    margin-top: 40px;
   }
   .counseling-text {
     font-size: 0.9rem;

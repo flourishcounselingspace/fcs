@@ -48,8 +48,8 @@
   
   @media (max-width: 768px) {
     .mission-container {
-      padding: 25px;
-      margin: 30px 15px;
+      padding: 15px;
+      margin: 10px 10px;
     }
   
     .section-title {
@@ -57,7 +57,7 @@
     }
   
     .values-list li {
-      flex-direction: row;
+      display: block;
     }
   }
   

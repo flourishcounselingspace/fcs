@@ -4,25 +4,23 @@ import { useNavigate } from 'react-router-dom';
 
 const EventCountdown = () => {
 
-  const navigate = useNavigate(); // Initialize the navigate function
+  const navigate = useNavigate();
 
   const goToContactUsPage = () => {
-    navigate("/fcs/contactus"); // Change "/newpage" to your desired route
+    navigate("/fcs/contactus");
   };
 
-  // Memoize the eventDate so it does not get recalculated on every render
-  const eventDate = useMemo(() => new Date('2025-05-04T00:00:00'), []);
+  // Updated event date to 24th May 2025
+  const eventDate = useMemo(() => new Date('2025-05-24T00:00:00'), []);
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(eventDate));
 
-  // Update the countdown timer every second
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft(eventDate));
     }, 1000);
-
     return () => clearInterval(timer);
-  }, [eventDate]); // eventDate is memoized now, so no unnecessary re-renders
+  }, [eventDate]);
 
   function calculateTimeLeft(eventDate) {
     const now = new Date();
@@ -41,8 +39,8 @@ const EventCountdown = () => {
   return (
     <div className="event-container">
       <div className="event-header">
-        <h1>Free Counseling Event - 4th May</h1>
-        <p>Join us for a free mental health counseling session—online or in-person!</p>
+        <h1>Counseling Event - 24th May</h1>
+        <p>Join us for a mental health counseling session—online or in-person—at just ₹399!</p>
       </div>
 
       <div className="event-details">
@@ -72,22 +70,25 @@ const EventCountdown = () => {
           )}
         </div>
 
-        <div class="event-info">
-        <h2>Event Details</h2>
-        <p>
-          On 4th May, we will be hosting a <strong>Free Counseling Event</strong> for individuals, families, and communities. Whether you're facing personal challenges, need guidance, or simply want to talk with a compassionate professional, this event is for you.
-        </p>
-        <p>
-          <strong>Location:</strong> Choose between <a href="https://maps.app.goo.gl/NX9oedCEcu8ukWFv6" target="_blank" rel="noopener noreferrer"><strong>In-person</strong></a> at our counseling center or join us <a href="https://wa.me/919937190927" target="_blank" rel="noopener noreferrer"><strong>Online</strong></a> for a virtual session. Whatever works best for you!
-        </p>
-       <div class="rush-warning">
-          <h3>🚨 High Rush! 🚨</h3>
+        <div className="event-info">
+          <h2>Event Details</h2>
           <p>
-            Due to high demand, we recommend booking your free session at least <strong>24 hours prior</strong> to the event to secure your spot and get your session confirmed.
+            On 24th May, we will be hosting a <strong>Counseling Event</strong> for individuals, families, and communities. Whether you're facing personal challenges, need guidance, or simply want to talk with a compassionate professional, this event is for you.
           </p>
+          <p>
+            <strong>Price:</strong> ₹399 per session.
+          </p>
+          <p>
+            <strong>Location:</strong> Choose between <a href="https://maps.app.goo.gl/NX9oedCEcu8ukWFv6" target="_blank" rel="noopener noreferrer"><strong>In-person</strong></a> at our counseling center or join us <a href="https://wa.me/919937190927" target="_blank" rel="noopener noreferrer"><strong>Online</strong></a> for a virtual session. Whatever works best for you!
+          </p>
+          <div className="rush-warning">
+            <h3>🚨 High Rush! 🚨</h3>
+            <p>
+              Due to high demand, we recommend booking your session at least <strong>24 hours prior</strong> to the event to secure your spot and get your session confirmed.
+            </p>
+          </div>
+          <button className="counseling-button" onClick={goToContactUsPage}>Book Your Session</button>
         </div>
-        <button className="counseling-button" onClick={goToContactUsPage}>Book Free Session</button>
-      </div>
       </div>
     </div>
   );

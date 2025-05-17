@@ -1,4 +1,4 @@
- 
+
  .navbar {
     position: fixed !important;
     background-color:#325343;
@@ -15,12 +15,29 @@
   }
 
    .whatsapp-icon {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     cursor: pointer;
   }
-  
+  /* .navbar-toggler-icon {
+    width: 3em;
+    height: 3em;
+  } */
+
+  .navbar-toggler {
+    padding: 0.5rem;         /* Increases the clickable area */
+    font-size: 2.5rem;      /* Increases any icon or text inside */
+    width: 60px;            /* Optional: fixed width */
+    height: 60px;           /* Optional: fixed height */
+    
+  }
+
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   /* .fixed-top {
     position: fixed;
     top: 0;
@@ -28,9 +45,9 @@
     right: 0;
     width:100%;
   }  */
-  
+
   .navbar ul {
-    
+
     display: flex;
     /* gap: 10px; */
     list-style: none;
@@ -41,7 +58,7 @@
     /* width: fit-content; */
     /* flex-wrap: wrap; */
 }
-  
+
   .navbar ul li {
     padding: 5px, 10px;
     margin: 0 20px;
@@ -49,7 +66,7 @@
     font-size: 20px;
     white-space:nowrap;
   }
-  
+
  .navbar ul a {
     text-decoration: none;
     color: white;
@@ -57,8 +74,8 @@
   .offcanvas {
     width: 300px !important;
   }
-  
-   
+
+
   .offcanvas-body .nav-link {
     color: #0d6efd;
   }
@@ -69,7 +86,7 @@
     color: #0d6efd;
     transition: color 0.3s ease-in-out;
   }
-  
+
   /* Ensure Active NavLink is Red */
   .navbar-nav .nav-link.active,
   .navbar ul .nav-link.active {
@@ -78,26 +95,31 @@
 
   a.active {
     color: red !important;
-  } 
+  }
    @media (max-width: 768px) {
-    
     .offcanvas {
-        width: 200px !important;
-      }
+      width: 200px; /* Ensure the offcanvas takes the full width on mobile */
+      padding: 10px; /* Adjust padding if necessary */
+    }
     .navbar ul {
       align-items: center;
       padding: 0;
       width: 100%;
       margin: 0;
+      display: none;
     }
-  
+
     .navbar ul li {
       margin: 10px 0;
       width: 100%;
     }
-  
+
     .whatsapp-icon {
-      width: 40px;
-      height: 40px;
+      width: 100px;
+      height: 100px;
+    }
+     /* Show navbar items inside the offcanvas */
+    .offcanvas-body .navbar-nav {
+      display: block !important; /* Make sure items are visible inside the offcanvas */
     }
   }

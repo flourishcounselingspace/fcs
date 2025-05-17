@@ -6,9 +6,13 @@
 }
 
  .main-content{
-  padding-top: 70px;
+  padding-top: 10px;
   background: #325343;
  }
+ body, html {
+  overflow-x: hidden;
+  width: 100%;
+}
 
 
 /* a{

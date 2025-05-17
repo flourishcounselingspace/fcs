@@ -2,6 +2,8 @@ import React from "react";
 import "./AboutUs.css"; // Import the CSS file
 import dnPhoto from '../assets/dnPhoto2.jpeg';  // Import images from your project
 import rkPhoto from '../assets/rkPhoto1.png';  // Import images from your project
+import snehaPhoto from '../assets/snehaPhoto.jpg';  // Import images from your project
+import priyankaPhoto from '../assets/priyankaPhoto.png';  // Import images from your project
 
 const AboutUs = () => {
   return (
@@ -78,6 +80,57 @@ const AboutUs = () => {
                 <li>Pre & Post Marital Counseling</li>
                 <li>Clinical Depression</li>
                 <li>Career Guidance</li>
+              </ul>
+            </div>
+            <div className="languages">
+              <h4>Speaks:</h4>
+              <p>Telugu, Hindi, and English</p>
+            </div>
+          </div>
+
+          <div className="image-wrapper">
+          <img src={snehaPhoto} alt="Counselor 3" className="round-image" />
+        </div>
+        <div className="counselor-details">
+            <h3 className="counselor-name">Mrs Sneha Patel</h3>
+            <p className="experience">Ph.D Clinical psychology, M.phil Clinical psychology.</p>
+            <p className="experience">11 years of experience</p>
+            <div className="expertise">
+              <h4>Expertise:</h4>
+              <ul>
+                <li>Stress and Anxiety</li>
+                <li>Obsession compulsion disorder</li>
+                <li>Depression</li>
+                <li>Cognitive behavioral therapy</li>
+                <li>Anxiety Disorders</li>
+                <li>Counselling</li>
+                <li>Child disorder</li>
+                <li>Personality disorder</li>
+                <li>Psychosis</li>
+                <li>Psychometric testing and Assessment</li>
+                <li>Diagnosing</li>
+              </ul>
+            </div>
+            <div className="languages">
+              <h4>Speaks:</h4>
+              <p>Gujarati, Odia,  Hindi, and English</p>
+            </div>
+          </div>
+
+          <div className="image-wrapper">
+          <img src={priyankaPhoto} alt="Counselor 3" className="round-image" />
+        </div>
+        <div className="counselor-details">
+            <h3 className="counselor-name">Dr. Laxmi Priyanka Nakka</h3>
+            <p className="experience">Ph.D. Psychology & I.M.Sc, Health Psychology.</p>
+            <p className="experience">5 years of experience</p>
+            <div className="expertise">
+              <h4>Expertise:</h4>
+              <ul>
+                <li>Stress and anxiety management</li>
+                <li>Adjustment issues</li>
+                <li>Health Psychology</li>
+                <li>Child and Adolescents Counseling</li>
               </ul>
             </div>
             <div className="languages">
