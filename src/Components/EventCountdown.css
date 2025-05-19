@@ -113,6 +113,11 @@
   .online-btn:hover {
     background-color: #e56c40;
   }
+  .price-highlight {
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+  }
   
   @media (max-width: 768px) {
     .event-header h1 {

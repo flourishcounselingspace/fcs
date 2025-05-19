@@ -40,7 +40,7 @@ const EventCountdown = () => {
     <div className="event-container">
       <div className="event-header">
         <h1>Counseling Event - 24th May</h1>
-        <p>Join us for a mental health counseling session—online or in-person—at just ₹399!</p>
+        <p>Join us for a mental health counseling session—online or in-person—at just ₹499!</p>
       </div>
 
       <div className="event-details">
@@ -76,7 +76,7 @@ const EventCountdown = () => {
             On 24th May, we will be hosting a <strong>Counseling Event</strong> for individuals, families, and communities. Whether you're facing personal challenges, need guidance, or simply want to talk with a compassionate professional, this event is for you.
           </p>
           <p>
-            <strong>Price:</strong> ₹399 per session.
+          <span class="price-highlight"><strong>Price:</strong> ₹499 only!!</span>
           </p>
           <p>
             <strong>Location:</strong> Choose between <a href="https://maps.app.goo.gl/NX9oedCEcu8ukWFv6" target="_blank" rel="noopener noreferrer"><strong>In-person</strong></a> at our counseling center or join us <a href="https://wa.me/919937190927" target="_blank" rel="noopener noreferrer"><strong>Online</strong></a> for a virtual session. Whatever works best for you!

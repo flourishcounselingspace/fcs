@@ -32,7 +32,7 @@ function Footer() {
          <div class="col-md-3">
            <h4>Contact Us</h4>
            <h5>flourishcounselingspace@gmail.com</h5>
-           <h5>Phone: +91-9937190927</h5>
+           <h5>Phone: +91-9937190927 / +91-7386277619 </h5>
            <SocialLinks/>
          </div>
          <div class="text-center mt-2">
