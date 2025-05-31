@@ -10,8 +10,8 @@ const EventCountdown = () => {
     navigate("/fcs/contactus");
   };
 
-  // Updated event date to 24th May 2025
-  const eventDate = useMemo(() => new Date('2025-05-24T00:00:00'), []);
+  // Updated event date to 8th June 2025
+  const eventDate = useMemo(() => new Date('2025-06-08T00:00:00'), []);
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(eventDate));
 
@@ -39,8 +39,8 @@ const EventCountdown = () => {
   return (
     <div className="event-container">
       <div className="event-header">
-        <h1>Counseling Event - 24th May</h1>
-        <p>Join us for a mental health counseling session—online or in-person—at just ₹499!</p>
+        <h1>Counseling Event - 8th June</h1>
+        <p>Join us for a mental health counseling session—online or in-person—at just ₹999!</p>
       </div>
 
       <div className="event-details">
@@ -73,10 +73,10 @@ const EventCountdown = () => {
         <div className="event-info">
           <h2>Event Details</h2>
           <p>
-            On 24th May, we will be hosting a <strong>Counseling Event</strong> for individuals, families, and communities. Whether you're facing personal challenges, need guidance, or simply want to talk with a compassionate professional, this event is for you.
+            On 8th June, we will be hosting a <strong>Counseling Event</strong> for individuals, families, and communities. Whether you're facing personal challenges, need guidance, or simply want to talk with a compassionate professional, this event is for you.
           </p>
           <p>
-          <span class="price-highlight"><strong>Price:</strong> ₹499 only!!</span>
+            <span className="price-highlight"><strong>Price:</strong> <del>₹2000</del> ₹999 only!!</span>
           </p>
           <p>
             <strong>Location:</strong> Choose between <a href="https://maps.app.goo.gl/NX9oedCEcu8ukWFv6" target="_blank" rel="noopener noreferrer"><strong>In-person</strong></a> at our counseling center or join us <a href="https://wa.me/919937190927" target="_blank" rel="noopener noreferrer"><strong>Online</strong></a> for a virtual session. Whatever works best for you!
