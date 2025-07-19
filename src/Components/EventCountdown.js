@@ -3,15 +3,14 @@ import './EventCountdown.css';
 import { useNavigate } from 'react-router-dom';
 
 const EventCountdown = () => {
-
   const navigate = useNavigate();
 
   const goToContactUsPage = () => {
     navigate("/fcs/contactus");
   };
 
-  // Updated event date to 8th June 2025
-  const eventDate = useMemo(() => new Date('2025-06-08T00:00:00'), []);
+  // Updated event date to 27th July 2025
+  const eventDate = useMemo(() => new Date('2025-07-27T00:00:00'), []);
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(eventDate));
 
@@ -39,7 +38,7 @@ const EventCountdown = () => {
   return (
     <div className="event-container">
       <div className="event-header">
-        <h1>Counseling Event - 8th June</h1>
+        <h1>Counseling Event - 27th July</h1>
         <p>Join us for a mental health counseling session—online or in-person—at just ₹999!</p>
       </div>
 
@@ -73,7 +72,7 @@ const EventCountdown = () => {
         <div className="event-info">
           <h2>Event Details</h2>
           <p>
-            On 8th June, we will be hosting a <strong>Counseling Event</strong> for individuals, families, and communities. Whether you're facing personal challenges, need guidance, or simply want to talk with a compassionate professional, this event is for you.
+            On 27th July, we will be hosting a <strong>Counseling Event</strong> for individuals, families, and communities. Whether you're facing personal challenges, need guidance, or simply want to talk with a compassionate professional, this event is for you.
           </p>
           <p>
             <span className="price-highlight"><strong>Price:</strong> <del>₹2000</del> ₹999 only!!</span>
