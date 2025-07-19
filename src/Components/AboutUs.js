@@ -4,6 +4,7 @@ import "./AboutUs.css"; // Import the CSS file
 import rkPhoto from '../assets/rkPhoto1.png';  // Import images from your project
 import snehaPhoto from '../assets/snehaPhoto.jpg';  // Import images from your project
 import priyankaPhoto from '../assets/priyankaPhoto.png';  // Import images from your project
+import siriPhoto from '../assets/siriPhoto.jpeg';  // Import images from your project
 
 const AboutUs = () => {
   return (
@@ -136,6 +137,28 @@ const AboutUs = () => {
             <div className="languages">
               <h4>Speaks:</h4>
               <p>Telugu, Hindi, and English</p>
+            </div>
+          </div>
+
+          <div className="image-wrapper">
+          <img src={siriPhoto} alt="Counselor 3" className="round-image" />
+        </div>
+        <div className="counselor-details">
+            <h3 className="counselor-name">Tummala V Sirichandana</h3>
+            <p className="experience">M.A. Applied Psychology & B.A. Psychology.</p>
+            <p className="experience">1+ years of experience</p>
+            <div className="expertise">
+              <h4>Expertise:</h4>
+              <ul>
+                <li>Student Counseling & Support</li>
+                <li>Career Guidance & Planning</li>
+                <li>Stress & Anxiety Management</li>
+                <li>Addressing Student-Centered Challenges & Mental Well-being</li>
+              </ul>
+            </div>
+            <div className="languages">
+              <h4>Speaks:</h4>
+              <p>Telugu and English</p>
             </div>
           </div>
       </div>
