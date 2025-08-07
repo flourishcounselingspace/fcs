@@ -5,6 +5,7 @@ import rkPhoto from '../assets/rkPhoto1.png';  // Import images from your projec
 import snehaPhoto from '../assets/snehaPhoto.jpg';  // Import images from your project
 import priyankaPhoto from '../assets/priyankaPhoto.png';  // Import images from your project
 import siriPhoto from '../assets/siriPhoto.jpeg';  // Import images from your project
+import dimplePhoto from '../assets/dimplePhoto.jpeg';  // Import images from your project
 
 const AboutUs = () => {
   return (
@@ -95,7 +96,7 @@ const AboutUs = () => {
         <div className="counselor-details">
             <h3 className="counselor-name">Mrs Sneha Patel</h3>
             <p className="experience">Ph.D Clinical psychology, M.phil Clinical psychology.</p>
-            <p className="experience">11 years of experience</p>
+            <p className="experience">11+ years of experience</p>
             <div className="expertise">
               <h4>Expertise:</h4>
               <ul>
@@ -124,7 +125,7 @@ const AboutUs = () => {
         <div className="counselor-details">
             <h3 className="counselor-name">Dr. Laxmi Priyanka Nakka</h3>
             <p className="experience">Ph.D. Psychology & I.M.Sc, Health Psychology.</p>
-            <p className="experience">5 years of experience</p>
+            <p className="experience">5+ years of experience</p>
             <div className="expertise">
               <h4>Expertise:</h4>
               <ul>
@@ -159,6 +160,32 @@ const AboutUs = () => {
             <div className="languages">
               <h4>Speaks:</h4>
               <p>Telugu and English</p>
+            </div>
+          </div>
+
+          <div className="image-wrapper">
+          <img src={dimplePhoto} alt="Counselor 4" className="round-image" />
+        </div>
+        <div className="counselor-details">
+            <h3 className="counselor-name">Dimple Racharla</h3>
+            <p className="experience">M.A. Applied Psychology, UGC NET, Gold Medalist.</p>
+            <p className="experience">1+ years of experience</p>
+            <div className="expertise">
+              <h4>Expertise:</h4>
+              <ul>
+                <li>Anxiety</li>
+                <li>Depression</li>
+                <li>Couple Therapy</li>
+                <li>Work-Life Balance</li>
+                <li>Career Shift</li>
+                <li>Adjustment Issues</li>
+                <li>Academic Challenges</li>
+                <li>LGBTQI+ Support</li>
+              </ul>
+            </div>
+            <div className="languages">
+              <h4>Speaks:</h4>
+              <p>Telugu, Hindi, and English</p>
             </div>
           </div>
       </div>
