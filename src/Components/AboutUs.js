@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css"; // Import the CSS file
-// import dnPhoto from '../assets/dnPhoto2.jpeg';  // Import images from your project
+import dnPhoto from '../assets/dnPhoto2.jpeg';  // Import images from your project
 import rkPhoto from '../assets/rkPhoto1.png';  // Import images from your project
 import snehaPhoto from '../assets/snehaPhoto.jpg';  // Import images from your project
 import priyankaPhoto from '../assets/priyankaPhoto.png';  // Import images from your project
@@ -35,7 +35,7 @@ const AboutUs = () => {
 
       {/* Counselor Image Section with Details */}
       <div className="about-us-images">
-        {/* <div className="image-wrapper">
+        <div className="image-wrapper">
           <img src={dnPhoto} alt="Counselor 1" className="round-image" />
          
         </div>
@@ -62,7 +62,7 @@ const AboutUs = () => {
               <h4>Speaks:</h4>
               <p>English, Hindi, Bengali, Odiya, Telugu</p>
             </div>
-          </div> */}
+          </div> 
         <div className="image-wrapper">
           <img src={rkPhoto} alt="Counselor 2" className="round-image" />
         </div>
@@ -94,7 +94,7 @@ const AboutUs = () => {
           <img src={snehaPhoto} alt="Counselor 3" className="round-image" />
         </div>
         <div className="counselor-details">
-            <h3 className="counselor-name">Mrs Sneha Patel</h3>
+            <h3 className="counselor-name">Dr. Sneha Patel</h3>
             <p className="experience">Ph.D Clinical psychology, M.phil Clinical psychology.</p>
             <p className="experience">11+ years of experience</p>
             <div className="expertise">
